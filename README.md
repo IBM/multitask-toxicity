@@ -1,6 +1,6 @@
 ## Accurate  Clinical Toxicity Prediction using Multi-task Deep Neural Nets and Contrastive Molecular Explanations
 
-Provided here is the code used to: 
+Provided here is the code to: 
 - create multi-task DNN and single-task DNN models to predict <i> in vivo </i> (RTECS), <i> in vitro </i> (Tox21), and clinical (ClinTox) toxicity given molecular input (Morgan fingerprints, FP, and SMILES Embeddings, SE)
 - compute a novel molecular representation - SMILES Embeddings
 - extract contrastive molecular explanations for toxicity predictions 
