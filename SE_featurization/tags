@@ -1,0 +1,135 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/54afb0f/
+0	.vscode/launch.json	/^                {$/;"	o	array:configurations.0.pathMappings
+0	.vscode/launch.json	/^        {$/;"	o	array:configurations
+CosineAnnealingLRWithRestart	moses/trans/misc.py	/^class CosineAnnealingLRWithRestart(_LRScheduler):$/;"	c
+F	moses/trans/model.py	/^import torch.nn.functional as F$/;"	I
+F	moses/trans/trainer.py	/^import torch.nn.functional as F$/;"	I
+KLAnnealer	moses/trans/misc.py	/^class KLAnnealer:$/;"	c
+ListDataset	scripts/decode_embeddings.py	/^class ListDataset(torch.utils.data.Dataset):$/;"	c
+Logger	moses/utils.py	/^class Logger(UserList):$/;"	c
+ModelsStorage	moses/models_storage.py	/^class ModelsStorage:$/;"	c
+MosesTrainer	moses/interfaces.py	/^class MosesTrainer(ABC):$/;"	c
+REGEX_SML	moses/utils.py	/^REGEX_SML = r'Cl|Br|[#%\\)\\(\\+\\-1032547698:=@CBFIHONPS\\[\\]cionps]'$/;"	v
+SS	moses/utils.py	/^class SS:$/;"	c
+SmilesOneHotVocab	moses/utils.py	/^class SmilesOneHotVocab(SmilesVocab):$/;"	c
+SmilesVocab	moses/utils.py	/^class SmilesVocab:$/;"	c
+Translation model	moses/trans/README.md	/^# Translation model$/;"	c
+TranslationModel	moses/trans/model.py	/^class TranslationModel(nn.Module):$/;"	c
+TranslationTrainer	moses/trans/trainer.py	/^class TranslationTrainer(MosesTrainer):$/;"	c
+__all__	moses/trans/__init__.py	/^__all__ = ['trans_parser', 'TranslationModel', 'TranslationTrainer']$/;"	v
+__call__	moses/trans/misc.py	/^    def __call__(self, i):$/;"	m	class:KLAnnealer
+__getitem__	moses/utils.py	/^    def __getitem__(self, key):$/;"	m	class:Logger
+__getitem__	scripts/decode_embeddings.py	/^    def __getitem__(self, i):$/;"	m	class:ListDataset
+__init__	moses/models_storage.py	/^    def __init__(self):$/;"	m	class:ModelsStorage
+__init__	moses/trans/misc.py	/^    def __init__(self, n_epoch, config):$/;"	m	class:KLAnnealer
+__init__	moses/trans/misc.py	/^    def __init__(self, optimizer, config):$/;"	m	class:CosineAnnealingLRWithRestart
+__init__	moses/trans/model.py	/^    def __init__(self, vocab, config):$/;"	m	class:TranslationModel
+__init__	moses/trans/trainer.py	/^    def __init__(self, config):$/;"	m	class:TranslationTrainer
+__init__	moses/utils.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:SmilesOneHotVocab
+__init__	moses/utils.py	/^    def __init__(self, chars, tokenizer=smiles_tokenize, ss=SS):$/;"	m	class:SmilesVocab
+__init__	moses/utils.py	/^    def __init__(self, data=None):$/;"	m	class:Logger
+__init__	scripts/decode_embeddings.py	/^    def __init__(self, data):$/;"	m	class:ListDataset
+__len__	moses/utils.py	/^    def __len__(self):$/;"	m	class:SmilesVocab
+__len__	scripts/decode_embeddings.py	/^    def __len__(self):$/;"	m	class:ListDataset
+__version__	moses/__init__.py	/^__version__ = '0.2'$/;"	v
+_n_epoch	moses/trans/trainer.py	/^    def _n_epoch(self):$/;"	m	class:TranslationTrainer
+_train	moses/trans/trainer.py	/^    def _train($/;"	m	class:TranslationTrainer
+_train_epoch	moses/trans/trainer.py	/^    def _train_epoch($/;"	m	class:TranslationTrainer
+add_model	moses/models_storage.py	/^    def add_model(self, name, class_, trainer_, parser_):$/;"	m	class:ModelsStorage
+append	moses/utils.py	/^    def append(self, step_dict):$/;"	m	class:Logger
+bos	moses/utils.py	/^    bos = '<bos>'$/;"	v	class:SS
+bos	moses/utils.py	/^    def bos(self):$/;"	m	class:SmilesVocab
+canonicalize	moses/calculate_overlap_nist_pubchem.py	/^    canonicalize = lambda smi: normalize_smiles(smi, canonical=True, isomeric=False)$/;"	f	function:get_canonical_smiles_from_file	file:
+char2id	moses/utils.py	/^    def char2id(self, char):$/;"	m	class:SmilesVocab
+collate	moses/trans/trainer.py	/^        def collate(data):$/;"	f	member:TranslationTrainer.get_collate_fn	file:
+collate	scripts/save_embeddings.py	/^    def collate(data):$/;"	f	function:get_collate_fn	file:
+compute_reconstruction_trans	moses/utils.py	/^def compute_reconstruction_trans(model, train_loader):$/;"	f
+config	scripts/decode_embeddings.py	/^    config = parser.parse_args()$/;"	v
+config	scripts/save_embeddings.py	/^    config = parser.parse_args()$/;"	v
+configurations	.vscode/launch.json	/^    "configurations": [$/;"	a
+create_tensors	moses/trans/trainer.py	/^        def create_tensors(string, device):$/;"	f	member:TranslationTrainer.get_collate_fn	file:
+create_tensors	scripts/save_embeddings.py	/^    def create_tensors(string, device):$/;"	f	function:get_collate_fn	file:
+decode	scripts/decode_embeddings.py	/^def decode($/;"	f
+device	moses/trans/model.py	/^    def device(self):$/;"	m	class:TranslationModel
+eos	moses/utils.py	/^    def eos(self):$/;"	m	class:SmilesVocab
+eos	moses/utils.py	/^    eos = '<eos>'$/;"	v	class:SS
+fit	moses/interfaces.py	/^    def fit(self, model, train_data, val_data=None):$/;"	m	class:MosesTrainer
+fit	moses/trans/trainer.py	/^    def fit(self, model, regression_model, train_data, val_data=None):$/;"	m	class:TranslationTrainer
+forward	moses/trans/model.py	/^    def forward(self, randomized_smiles, canonical_smiles):$/;"	m	class:TranslationModel
+forward_decoder	moses/trans/model.py	/^    def forward_decoder(self, x, z):$/;"	m	class:TranslationModel
+forward_encoder	moses/trans/model.py	/^    def forward_encoder(self, x):$/;"	m	class:TranslationModel
+from_data	moses/utils.py	/^    def from_data(cls, data, tokenizer=smiles_tokenize, max_smiles=1000000, *args, **kwargs):$/;"	m	class:SmilesVocab
+get_canonical_smiles_from_file	moses/calculate_overlap_nist_pubchem.py	/^def get_canonical_smiles_from_file(input_file):$/;"	f
+get_collate_device	moses/interfaces.py	/^    def get_collate_device(self, model):$/;"	m	class:MosesTrainer
+get_collate_fn	moses/interfaces.py	/^    def get_collate_fn(self, model):$/;"	m	class:MosesTrainer
+get_collate_fn	moses/trans/trainer.py	/^    def get_collate_fn(self, model):$/;"	m	class:TranslationTrainer
+get_collate_fn	scripts/save_embeddings.py	/^def get_collate_fn(model):$/;"	f
+get_dataloader	moses/interfaces.py	/^    def get_dataloader(self, model, data, collate_fn=None, shuffle=True):$/;"	m	class:MosesTrainer
+get_embeddings_tensor	scripts/decode_embeddings.py	/^def get_embeddings_tensor(embeddings_map, smiles_list):$/;"	f
+get_lr	moses/trans/misc.py	/^    def get_lr(self):$/;"	m	class:CosineAnnealingLRWithRestart
+get_model_class	moses/models_storage.py	/^    def get_model_class(self, name):$/;"	m	class:ModelsStorage
+get_model_names	moses/models_storage.py	/^    def get_model_names(self):$/;"	m	class:ModelsStorage
+get_model_train_parser	moses/models_storage.py	/^    def get_model_train_parser(self, name):$/;"	m	class:ModelsStorage
+get_model_trainer	moses/models_storage.py	/^    def get_model_trainer(self, name):$/;"	m	class:ModelsStorage
+get_optim_params	moses/trans/trainer.py	/^    def get_optim_params(self, model, regression_model):$/;"	m	class:TranslationTrainer
+get_parser	moses/trans/config.py	/^def get_parser(parser=None):$/;"	f
+get_parser	scripts/decode_embeddings.py	/^def get_parser():$/;"	f
+get_parser	scripts/save_embeddings.py	/^def get_parser():$/;"	f
+get_vocabulary	moses/interfaces.py	/^    def get_vocabulary(self, data):$/;"	m	class:MosesTrainer
+get_vocabulary	moses/trans/trainer.py	/^    def get_vocabulary(self, data):$/;"	m	class:TranslationTrainer
+host	.vscode/launch.json	/^            "host": "cccxc415.pok.ibm.com",$/;"	s	object:configurations.0
+id2char	moses/utils.py	/^    def id2char(self, id):$/;"	m	class:SmilesVocab
+ids2string	moses/utils.py	/^    def ids2string(self, ids, rem_bos=True, rem_eos=True):$/;"	m	class:SmilesVocab
+localRoot	.vscode/launch.json	/^                    "localRoot": "${workspaceFolder}",$/;"	s	object:configurations.0.pathMappings.0
+main	data/nist_data/updated_data_partition/create_csv.py	/^def main(input_file, output_file):$/;"	f
+main	moses/calculate_overlap_nist_pubchem.py	/^def main(nist_files):$/;"	f
+main	scripts/decode_embeddings.py	/^def main(model, config):$/;"	f
+main	scripts/save_embeddings.py	/^def main(model, config):$/;"	f
+merge_lists	scripts/decode_embeddings.py	/^def merge_lists(predicted_dict):$/;"	f
+model	scripts/save_embeddings.py	/^    model = sys.argv[1]$/;"	v
+n_workers	moses/interfaces.py	/^    def n_workers(self):$/;"	m	class:MosesTrainer
+name	.vscode/launch.json	/^            "name": "Python: Remote Attach",$/;"	s	object:configurations.0
+nn	moses/trans/model.py	/^import torch.nn as nn$/;"	I
+normalize_smiles	moses/utils.py	/^def normalize_smiles(smi, canonical, isomeric):$/;"	f
+np	moses/utils.py	/^import numpy as np$/;"	I
+optim	moses/trans/trainer.py	/^import torch.optim as optim$/;"	I
+pad	moses/utils.py	/^    def pad(self):$/;"	m	class:SmilesVocab
+pad	moses/utils.py	/^    pad = '<pad>'$/;"	v	class:SS
+parser	scripts/decode_embeddings.py	/^    parser = get_parser()$/;"	v
+parser	scripts/save_embeddings.py	/^    parser = get_parser()$/;"	v
+pathMappings	.vscode/launch.json	/^            "pathMappings": [$/;"	a	object:configurations.0
+pd	data/nist_data/updated_data_partition/create_csv.py	/^import pandas as pd$/;"	I
+pd	moses/calculate_overlap_nist_pubchem.py	/^import pandas as pd$/;"	I
+pd	moses/utils.py	/^import pandas as pd$/;"	I
+pd	scripts/decode_embeddings.py	/^import pandas as pd$/;"	I
+pd	scripts/save_embeddings.py	/^import pandas as pd$/;"	I
+port	.vscode/launch.json	/^            "port": 3000,$/;"	n	object:configurations.0
+python.linting.enabled	.vscode/settings.json	/^    "python.linting.enabled": true$/;"	b
+python.linting.flake8Enabled	.vscode/settings.json	/^    "python.linting.flake8Enabled": true,$/;"	b
+python.linting.pylintEnabled	.vscode/settings.json	/^    "python.linting.pylintEnabled": false,$/;"	b
+python.pythonPath	.vscode/settings.json	/^    "python.pythonPath": "\/dccstor\/medscan7\/anaconda3\/envs\/py37exp_contrastive\/bin\/python/;"	s
+remoteRoot	.vscode/launch.json	/^                    "remoteRoot": "\/dccstor\/medscan7\/smallmolecule\/runs\/spectrum_paper"$/;"	s	object:configurations.0.pathMappings.0
+request	.vscode/launch.json	/^            "request": "attach",$/;"	s	object:configurations.0
+sample	moses/trans/model.py	/^    def sample(self, n_batch, max_len=100, z=None, temp=1.0, top_p=0):$/;"	m	class:TranslationModel
+sample_z_prior	moses/trans/model.py	/^    def sample_z_prior(self, n_batch):$/;"	m	class:TranslationModel
+save	moses/utils.py	/^    def save(self, path):$/;"	m	class:Logger
+set_collate_fn	moses/trans/trainer.py	/^    def set_collate_fn(self, collate_fn):$/;"	m	class:TranslationTrainer
+set_torch_seed_to_all_gens	moses/utils.py	/^def set_torch_seed_to_all_gens(_):$/;"	f
+smiles_tokenize	moses/utils.py	/^def smiles_tokenize(smiles):$/;"	f
+sort_fn	moses/trans/trainer.py	/^            sort_fn = lambda x: len(x[0])$/;"	f	function:TranslationTrainer.get_collate_fn.collate	file:
+sort_fn	scripts/save_embeddings.py	/^        sort_fn = lambda x: len(x[0])$/;"	f	function:get_collate_fn.collate	file:
+step	moses/trans/misc.py	/^    def step(self, epoch=None):$/;"	m	class:CosineAnnealingLRWithRestart
+string2ids	moses/utils.py	/^    def string2ids(self, string, add_bos=False, add_eos=False):$/;"	m	class:SmilesVocab
+string2tensor	moses/trans/model.py	/^    def string2tensor(self, string, device="model"):$/;"	m	class:TranslationModel
+tb_log	moses/trans/trainer.py	/^    def tb_log(self, data, epoch):$/;"	m	class:TranslationTrainer
+tensor2string	moses/trans/model.py	/^    def tensor2string(self, tensor):$/;"	m	class:TranslationModel
+translation_parser	moses/trans/__init__.py	/^from .config import get_parser as translation_parser$/;"	x
+type	.vscode/launch.json	/^            "type": "python",$/;"	s	object:configurations.0
+unk	moses/utils.py	/^    def unk(self):$/;"	m	class:SmilesVocab
+unk	moses/utils.py	/^    unk = '<unk>'$/;"	v	class:SS

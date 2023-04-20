@@ -1,0 +1,4 @@
+smiles_with_precursor,predicted_smiles_list
+O=C(O)C1CC(=O)N(c2ccc(F)c(F)c2)C1,O=C(N)c1ccc(C(=O)OC2CC2)cc1F|O=C(O)c1ccc(C(=O)N2CCCC2)cc1F|O=C(O)c1ccc(F)cc1N1CCC(=O)C1
+C=CCNC(=S)Nc1nnc[nH]1,CNc1nc(SC)n[nH]c1NC(=O)F|CNc1nc(NC(=S)N)ccn1|CC(=CNc1nc(N)cc[nH]1)[nH]1
+O=C(CC(=O)c1ccccc1O)c1ccccc1,O=C(O)c1ccc(NC(=O)c2ccccc2)cc1
